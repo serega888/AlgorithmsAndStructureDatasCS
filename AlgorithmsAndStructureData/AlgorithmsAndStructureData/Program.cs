@@ -7,13 +7,13 @@ namespace AlgorithmsAndStructureData
 	{
 		static void Main(string[] args)
 		{
-			TestTreeSum();
+			TestThreeSum();
 			Console.Read();
 		}
 
-		private static void TestTreeSum()
+		private static void TestThreeSum()
 		{
-			var ints = In.ReadInts("D:\\AlgorithmsAndStructureDatasCS\\AlgorithmsAndStructureData\\AlgorithmsAndStructureData\\bin\\Release\\net6.0\\Data\\1Kints.txt").ToArray();
+			var ints = In.ReadInts("D:\\AlgorithmsAndStructureDatasCS\\AlgorithmsAndStructureData\\AlgorithmsAndStructureData\\bin\\Release\\net6.0\\Data\\8Kints.txt").ToArray();
 			var watch = new Stopwatch();
 			watch.Start();
 
